@@ -1,0 +1,1076 @@
+\documentclass[10pt]{extarticle}
+\usepackage{main}
+\usepackage[sc]{mathpazo}
+\linespread{1.05}         % Palladio needs more leading (space between lines)
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\begin{document}
+\begin{exercise}
+    \dots the weights may be reduced to zero.
+    \begin{choice}(4)
+        * L1 and L2
+        * \correctChoice{L1}
+        * L2
+        * None of the above
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    If we want to create an optimal set of weight, we choose to minimize this loss function concerning \(w\) over the entire training data set.
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the primary purpose of regularization in deep learning?
+    \begin{choice}(1)
+        * to increase computational efficiency
+        * to reduce the number of layers in a neural network
+        * \correctChoice{to prevent overfitting}
+        * to speed up the training process
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which of the following regularization techniques adds a penalty term based on the absolute values of the weights?
+    \begin{choice} (4)
+        * \correctChoice{L1 regularization}
+        * L2 regularization
+        * Dropout
+        * Elastic Net
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In neural networks, what does L2 regularization encourage?
+    \begin{choice} (2)
+        * Sparse weight matrices
+        * large weight values
+        * \correctChoice{small weight values}
+        * No impact on weight values
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does dropout regularization work in a neural network?
+    \begin{choice}(1)
+        * It randomly drops input features during training
+        * \correctChoice{It randomly drops entire layers during training}
+        * It adds noise to the input data
+        * It introduces a penalty term for large weights.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which regularization technique combines both L1 and L2 penalties?
+    \begin{choice} (2)
+        * Dropout
+        * Ride regression
+        * \correctChoice{Elastic Net}
+        * Batch Normalization
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the purpose of early stopping as a form of regularization?
+    \begin{choice} (1)
+        * To stop the training process when the model is underfitting
+        * \correctChoice{To prevent the model from memorizing the training data}
+        * To speed up the convergence of the training process
+        * To reduce the impact of outliers in the training data
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which of the following statements is true about the bias-variance tradeoff in the context of regularization?
+    \begin{choice} (1)
+        * Regularization always increases bias and decreases variance
+        * Regularization always increases both bias and variance
+        * \correctChoice{Regularization can help balance bias and variance}
+        * Regularization has no impact on the bias-variance tradeoff
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In the context of neural networks, what does weight decay refer to?
+    \begin{choice} (1)
+        * The gradual increase in weight values during training
+        * \correctChoice{The gradual decrease in weight values during training}
+        * The removal of unnecessary weights from the network
+        * The introduction of noise to the weight values
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which of the following is a disadvantage of using a high regularization strength in a neural network?
+    \begin{choice} (1)
+        * Increased risk of overfitting
+        * Faster convergence during training
+        * Enhanced generalization to new data
+        * \correctChoice{Reduced capacity to capture complex patterns}
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the role of the temperature parameter in the context of knowledge distillation as a form of regularization?
+    \begin{choice} (1)
+        * Controls the learning rate
+        * Adjusts the level of noise in the input data
+        * \correctChoice{Regulates the softness of the target distribution}
+        * Sets the threshold for dropout during training
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In the context of neural networks, what does dropout rate refer to?
+    \begin{choice}(1)
+        * The percentage of training samples used during each iteration
+        * The rate at which weight are decayed during training
+        * \correctChoice{The probability of dropping out a unit in the hidden layers during training}
+        * The learning rate for stochastic gradient descent.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which of the following is a technique used for dynamic adjustment of the learning rate during training to improve convergence in deep learning?
+    \begin{choice}(2)
+        * Adversarial training
+        * \correctChoice{Learning rate annealing}
+        * Batch Normalization
+        * Feature Scaling
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the purpose of adding noise to the input data as a form of regularization?
+    \begin{choice} (1)
+        * To make the training process deterministic
+        * To improve model interpretability
+        * \correctChoice{To reduce the impact of outliers in the input data}
+        * To prevent the model from memorizing the training data
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In the context of regularization, what does the term "shrinkage" refer to?
+    \begin{choice} (1)
+        * Reducing the size of the input data
+        * Reducing the number of hidden layers in the network
+        * \correctChoice{Constraining the magnitude of the weights in the model}
+        * Eliminating unnecessary features from the dataset
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which of the following statements is true about the dropout technique?
+    \begin{choice} (1)
+        * Dropout is more effective in shallow networks than deep networks
+        * Dropout can be applied only to input layers
+        * Dropout introduces random variations only during testing
+        * \correctChoice{Dropout helps prevent co-adaptation of hidden units}
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the primary goal of ensemble methods in machine learning?
+    \begin{choice}(1)
+        * To reduce the computational complexity of models
+        * To increase the training time of individual models
+        * \correctChoice{To improve the predictive performance of a model by combining multiple models}
+        * To decrease the diversity among base models
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which of the following statements is true about bagging (Bootstrap Aggregating)?
+    \begin{choice} (1)
+        * It trains multiple models sequentially.
+        * \correctChoice{It trains multiple models independently on different subsets of the training data.}
+        * It combines models using a weighted average.
+        * It is not suitable for high-variance models.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the purpose of random forests in ensemble learning?
+    \begin{choice}(1)
+        * To create a forest of decision trees with high correlation
+        * To reduce the number of trees in the ensemble
+        * \correctChoice{To introduce randomness by considering a random subset of features for each tree}
+        * To eliminate the need for decision trees in the ensemble
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In boosting, how are the weights assigned to misclassified instances during training?
+    \begin{choice} (1)
+        * Equally to all instances
+        * Proportional to the difficulty of the instance
+        * \correctChoice{Sequentially, with higher weights for misclassified instances}
+        * Inversely proportional to the number of features
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which ensemble method combines the predictions of base models by taking a weighted average, where the weights are learned based on the performance of each model?
+    \begin{choice}(4)
+        * Bagging
+        * \correctChoice{Stacking}
+        * Boosting
+        * Random Forest
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the primary advantage of ensemble methods over individual base models?
+    \begin{choice}
+        * Ensemble methods are always faster than individual models.
+        * Ensemble methods can handle only linear relationships.
+        * \correctChoice{Ensemble methods often generalize better and have improved robustness.}
+        * Ensemble methods are more prone to overfitting.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In the context of boosting, what does the term "weak learner" refer to?
+    \begin{choice}
+        * A model with high training accuracy
+        * \correctChoice{A model that performs slightly better than random chance}
+        * A model with a large number of parameters
+        * A model that is highly overfit
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which ensemble method is known for building a sequence of weak learners, each correcting the errors of its predecessor?
+    \begin{choice} (4)
+        * Bagging
+        * \correctChoice{AdaBoost}
+        * Random Forest
+        * Gradient Boosting
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which ensemble method trains multiple models independently on different subsets of the training data?
+    \begin{choice}(4)
+        * Boosting
+        * Stacking
+        * \correctChoice{Bagging}
+        * Random Forest
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is bagging short for in the context of ensemble methods?
+
+    \begin{choice}(4)
+        * \correctChoice{Bootstrap Aggregating}
+        * Boosting Algorithm
+        * Bagged Aggregation
+        * Batch Aggregation
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In boosting, how are the weights assigned to misclassified instances during training?
+    \begin{choice}
+        * Equally to all instances
+        * Proportional to the difficulty of the instance
+        * \correctChoice{Sequentially, with higher weights for misclassified instances}
+        * Randomly assigned
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which ensemble method combines the predictions of base models by taking a weighted average?
+    \begin{choice}
+        * Bagging
+        * \correctChoice{Stacking}
+        * Boosting
+        * Random Forest
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which ensemble method is known for building a sequence of weak learners, each correcting the errors of its predecessor?
+    \begin{choice}
+        * Bagging
+        * \correctChoice{AdaBoost}
+        * Random Forest
+        * Gradient Boosting
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the primary advantage of ensemble methods over individual base models?
+    \begin{choice}
+        * Faster training time
+        * \correctChoice{Improved generalization and robustness}
+        * Lower computational complexity
+        * Higher sensitivity to outliers
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which ensemble method is based on constructing a forest of decision trees with high diversity?
+    \begin{choice}(4)
+        * Bagging
+        * AdaBoost
+        * \correctChoice{Random Forest}
+        * Stacking
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What does the acronym "LSTM" stand for in the context of deep learning?
+    \begin{choice}(2)
+        * \correctChoice{Long Short-Term Memory}
+        * Linear Short-Term Memory
+        * Limited Short-Term Memory
+        * Lasting Short-Term Memory
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In boosting, what is the purpose of the learning rate parameter?
+    \begin{choice}
+        * It controls the number of weak learners
+        \correctChoice{It adjusts the amount by which weights are updated during each iteration}
+        * It determines the depth of decision trees
+        * It sets the threshold for feature selection
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What distinguishes Random Forest from traditional bagging techniques?
+    \begin{choice}
+        * Random Forest uses a single decision tree
+        * Random Forest trains models sequentially
+        * \correctChoice{Random Forest introduces randomness by considering a random subset of features for each tree}
+        * Random Forest assigns equal weights to all instances
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does stacking differ from bagging and boosting in ensemble methods?
+    \begin{choice}
+        * Stacking trains models independently on different subsets
+        * Stacking combines predictions using a weighted average
+        * Stacking builds a sequence of weak learners
+        * \correctChoice{Stacking uses multiple base models to form a meta-model}
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What role does the concept of "bias-variance tradeoff" play in ensemble methods?
+    \begin{choice} (1)
+        * Ensemble methods eliminate the bias-variance tradeoff
+        * Ensemble methods intensify the bias-variance tradeoff
+        * \correctChoice{Ensemble methods help balance bias and variance}
+        * Ensemble methods have no impact on bias and variance
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the primary limitation of using too many weak learners in boosting?
+    \begin{choice} (2)
+        * \correctChoice{Increased risk of overfitting}
+        * Decreased computational complexity
+        * Improved generalization
+        * Faster training time
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In bagging, how are the subsets of the training data created for each base model?
+    \begin{choice}
+        * \correctChoice{Randomly and with replacement}
+        * Randomly and without replacement
+        * Sequentially and with replacement
+        * Sequentially and without replacement
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the primary advantage of using gradient boosting over traditional AdaBoost?
+    \begin{choice} (2)
+        * Faster convergence
+        * \correctChoice{Better handling of outliers}
+        * Reduced risk of overfitting
+        * Simplicity in implementation
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which ensemble method is prone to becoming computationally expensive as the number of models increases?
+    \begin{choice} (4)
+        * Bagging
+        * Stacking
+        * \correctChoice{Boosting}
+        * Random Forest
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What does the term "stacking" refer to in ensemble learning?
+    \begin{choice}
+        * Combining models using a weighted average
+        * Training models independently on different subsets
+        * Constructing a sequence of weak learners
+        * \correctChoice{Using multiple base models to form a meta-model}
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which ensemble method is known for its ability to handle both linear and non-linear relationships in the data?
+    \begin{choice}(4)
+        * Bagging
+        * Stacking
+        * \correctChoice{Random Forest}
+        * Gradient Boosting
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Explain the concept of "out-of-bag" error in the context of bagging.
+    \begin{choice}
+        * It is the error rate calculated on the training set
+        * It is the error rate on the validation set
+        * \correctChoice{It is an estimate of the test error obtained from the unused samples during training}
+        * It is a measure of the model's performance on out-of-distribution data
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the role of the hyperparameter "max depth" in decision trees within a Random Forest?
+    \begin{choice}
+        * It controls the number of trees in the forest
+        * \correctChoice{It limits the maximum depth of individual decision trees}
+        * It sets the learning rate for boosting
+        * It adjusts the weights assigned to misclassified instances
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In the context of ensemble methods, what is "early stopping," and how does it contribute to regularization?
+    \begin{choice}
+        * Early stopping involves terminating the training process when the model is underfitting, contributing to model simplicity.
+        * \correctChoice{Early stopping prevents overfitting by stopping the training process when the model starts to memorize the training data.}
+        * Early stopping introduces noise to the input data during training, preventing overfitting.
+        * Early stopping is not related to regularization in ensemble methods.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the impact of increasing the number of base models on the computational complexity of stacking?
+    \begin{choice}
+        * The computational complexity decreases linearly
+        * \correctChoice{The computational complexity increases linearly}
+        * The computational complexity remains constant
+        * The computational complexity depends on the type of base models used
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Explain the concept of "adversarial training" in the context of ensemble methods.
+    \begin{choice}
+        * \correctChoice{Adversarial training involves training models to be robust against adversarial attacks.}
+        * Adversarial training focuses on maximizing the accuracy on the training set.
+        * Adversarial training eliminates the need for ensemble methods.
+        * Adversarial training refers to using adversarial examples as additional training data.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does the concept of "stacking with cross-validation" address the risk of overfitting in stacking?
+    \begin{choice}
+        * It eliminates the need for cross-validation in stacking.
+        * \correctChoice{It uses multiple cross-validated models, reducing overfitting.}
+        * It increases the depth of individual base models.
+        * It has no impact on the risk of overfitting.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the primary drawback of using a high learning rate in boosting algorithms?
+    \begin{choice}(2)
+        * Slower convergence
+        * \correctChoice{Increased risk of overfitting}
+        * Decreased model performance
+        * Improved generalization
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Explain the concept of "feature importance" in the context of Random Forest.
+    \begin{choice}
+        * Feature importance represents the number of times a feature is selected by a base model.
+        * \correctChoice{Feature importance indicates the relevance of a feature in predicting the target variable.}
+        * Feature importance is not applicable to ensemble methods.
+        * Feature importance measures the computational cost of using a specific feature.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the role of the "n estimators" hyperparameter in ensemble methods such as Random Forest and Gradient Boosting?
+    \begin{choice}
+        * It controls the learning rate in boosting algorithms.
+        * It sets the maximum depth of individual decision trees.
+        * \correctChoice{It specifies the number of base models in the ensemble.}
+        * It determines the subset of features considered for each base model.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Explain the concept of "stacking with meta-features" in the context of ensemble methods.
+    \begin{choice}
+        * \correctChoice{Stacking with meta-features involves using the output of base models as features for a meta-model.}
+        * Stacking with meta-features eliminates the need for multiple base models.
+        * Stacking with meta-features refers to combining models using a weighted average.
+        * Stacking with meta-features involves using only one type of base model in the ensemble.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is Dropout in the context of neural networks?
+    \begin{choice}
+        * Adding noise to input features
+        * \correctChoice{Removing random neurons during training}
+        * Reducing the learning rate
+        * Increasing the number of hidden layers
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the main purpose of Dropout in neural networks?
+    \begin{choice}
+        * To increase overfitting
+        * To speed up the training process
+        * \correctChoice{To prevent co-adaptation of neurons}
+        * To eliminate the need for activation functions
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which of the following statements is true about the application of Dropout during training?
+    \begin{choice}
+        * Dropout is only applied to input layers
+        * \correctChoice{Dropout is applied to all layers except the output layer}
+        * Dropout is applied during both training and testing
+        * Dropout is never applied to neural networks
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does Dropout contribute to regularization in neural networks?
+    \begin{choice}
+        * By increasing the number of parameters
+        * By introducing noise to the input data
+        * \correctChoice{By reducing the model's capacity}
+        * By promoting co-adaptation of neurons
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In terms of training, what does it mean if a neuron is "dropped out"?
+    \begin{choice}
+        * The neuron's weights are set to zero
+        * \correctChoice{The neuron is removed from the network temporarily}
+        * The neuron's activation function is bypassed
+        * The neuron's output is squared
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What challenge does Dropout aim to address in neural networks?
+    \begin{choice} (4)
+        * Underfitting
+        * \correctChoice{Overfitting}
+        * Vanishing gradients
+        * Exploding gradients
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does Dropout affect the training time of a neural network?
+    \begin{choice}
+        * \correctChoice{Slows down the training process}
+        * Speeds up the training process
+        * No impact on training time
+        * Depends on the type of activation function used
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the recommended range for Dropout rates in neural networks?
+    \begin{choice}
+        * 0.0 to 0.1
+        * \correctChoice{0.2 to 0.5}
+        * 0.5 to 0.8
+        * 0.9 to 1.0
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does Dropout contribute to model generalization?
+    \begin{choice}
+        * By memorizing the training data
+        * By promoting co-adaptation of neurons
+        * \correctChoice{By reducing the sensitivity of neurons to specific input features}
+        * By increasing the number of hidden layers
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    When applying Dropout, which phase is used for adjusting the weights of the neural network?
+    \begin{choice}
+        * \correctChoice{Training phase}
+        * Testing phase
+        * Both training and testing phases
+        * Neither training nor testing phases
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Explain the term "co-adaptation of neurons" in the context of neural networks and how Dropout addresses it.
+    \begin{choice}
+        * \correctChoice{Co-adaptation refers to neurons relying too much on each other, and Dropout breaks these dependencies by randomly dropping neurons during training.}
+        * Co-adaptation is a form of regularization, and Dropout exacerbates co-adaptation by introducing noise.
+        * Co-adaptation occurs when neurons are independent, and Dropout enforces co-adaptation by removing dependencies.
+        * Co-adaptation is unrelated to Dropout; Dropout only affects the learning rate.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does the effectiveness of Dropout vary with the size and complexity of a neural network?
+    \begin{choice}
+        * Dropout is more effective in small and simple networks
+        * \correctChoice{Dropout is more effective in large and complex networks}
+        * Dropout is equally effective across all network sizes and complexities
+        * Dropout is irrelevant to network size and complexity
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the relationship between Dropout and the concept of ensemble learning?
+    \begin{choice}
+        * Dropout is a type of ensemble learning
+        * Ensemble learning and Dropout are unrelated concepts
+        * \correctChoice{Dropout and ensemble learning achieve the same result in terms of model diversity}
+        * Dropout eliminates the need for ensemble learning
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Explain the trade-off between using a high Dropout rate and a low Dropout rate in neural networks.
+    \begin{choice}
+        * \correctChoice{High Dropout rates lead to overfitting, while low Dropout rates may result in underfitting.}
+        * High Dropout rates always improve model generalization, while low Dropout rates reduce model capacity.
+        * There is no trade-off; the Dropout rate does not impact model performance.
+        * The trade-off depends on the type of activation function used in the network.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does Dropout contribute to mitigating the vanishing gradient problem in deep neural networks?
+    \begin{choice}
+        * a. By increasing the learning rate
+        * By preventing co-adaptation of neurons
+        * \correctChoice{By introducing noise to the input data}
+        * By reducing the sensitivity of neurons to specific input features
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the primary goal of data augmentation in machine learning?
+    \begin{choice}
+        * To decrease the size of the dataset
+        * To increase the computational complexity
+        * \correctChoice{To improve model performance by increasing the diversity of the training data}
+        * To eliminate the need for validation data
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which of the following is a common technique used in data augmentation for image data?
+    \begin{choice} (2)
+        * Principal Component Analysis (PCA)
+        * Feature scaling
+        * \correctChoice{Image rotation}
+        * Lasso regularization
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+
+\begin{exercise}
+    How does data augmentation contribute to preventing overfitting in machine learning models?
+    \begin{choice}
+        * By reducing the size of the training dataset
+        * By increasing the number of layers in the model
+        * By introducing noise to the input data
+        * \correctChoice{By providing a more diverse set of training examples}
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In text data augmentation, what technique involves replacing words with their synonyms?
+    \begin{choice}(4)
+        * Tokenization
+        * Embedding
+        * \correctChoice{Word substitution}
+        * Lemmatization
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which of the following is a disadvantage of data augmentation?
+    \begin{choice}
+        * Increased model generalization
+        * \correctChoice{Potential introduction of unrealistic patterns}
+        * Improved model robustness
+        * Decreased computational efficiency
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the purpose of random cropping in image data augmentation?
+    \begin{choice}
+        * To decrease the image resolution
+        * To remove irrelevant features from the image
+        * \correctChoice{To create variations in the spatial location of objects}
+        * To increase the image contrast
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which type of data augmentation is commonly used for time series data?
+    \begin{choice}(4)
+        * Image rotation
+        * \correctChoice{Time warping}
+        * Word substitution
+        * Feature scaling
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Explain the concept of "jittering" in the context of data augmentation.
+    \begin{choice}
+        * \correctChoice{Jittering refers to the introduction of noise to input features}
+        * Jittering involves the random selection of a subset of data points
+        * Jittering is a synonym for image rotation
+        * Jittering is irrelevant to data augmentation
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In the context of image data augmentation, what is the purpose of horizontal flipping?
+    \begin{choice} (2)
+        * To rotate images clockwise
+        * \correctChoice{To create mirror images}
+        * To adjust the image brightness
+        * To resize images
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does data augmentation differ from feature engineering?
+    \begin{choice}
+        * \correctChoice{Data augmentation focuses on creating new samples, while feature engineering manipulates existing features.}
+        * Feature engineering is limited to image data, while data augmentation is applicable to all data types.
+        * Data augmentation involves scaling features, while feature engineering involves randomization.
+        * Feature engineering and data augmentation are synonymous terms.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the role of dropout in the context of data augmentation?
+    \begin{choice} (1)
+        * Dropout is not related to data augmentation
+        * \correctChoice{Dropout enhances data augmentation by randomly removing features during training}
+        * Dropout is a type of data augmentation technique
+        * Dropout prevents data augmentation from introducing unrealistic patterns
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Which data augmentation technique is commonly used for audio data to introduce variations in pitch?
+    \begin{choice} (2)
+        * Time warping
+        * \correctChoice{Spectrogram augmentation}
+        * Random cropping
+        * Jittering
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the purpose of elastic deformation in image data augmentation?
+    \begin{choice}
+        * To adjust the image contrast
+        * \correctChoice{To introduce non-linear distortions to the image}
+        * To resize the image
+        * To rotate the image
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In natural language processing, which technique involves randomly removing words from sentences during data augmentation?
+    \begin{choice} (1)
+        * Tokenization
+        * Word substitution
+        * Sentence splitting
+        * \correctChoice{Sentence dropout}
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Explain the concept of "adversarial training" in the context of data augmentation and how it addresses robustness.
+    \begin{choice} (1)
+        * \correctChoice{Adversarial training focuses on creating adversarial examples to test the model's robustness against unseen patterns introduced by data augmentation.}
+        * Adversarial training is irrelevant to data augmentation.
+        * Adversarial training involves increasing the size of the training set.
+        * Adversarial training enhances data augmentation by introducing adversarial noise during the augmentation process.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does data augmentation contribute to handling class imbalance in classification tasks?
+    \begin{choice} (1)
+        * Data augmentation exacerbates class imbalance
+        * Data augmentation is not related to class imbalance
+        * \correctChoice{Data augmentation generates additional samples for minority classes, addressing class imbalance}
+        * Data augmentation reduces the need for addressing class imbalance
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What challenges might arise when applying data augmentation to non-image data types, such as tabular data?
+    \begin{choice}(1)
+        * Difficulty in implementing data augmentation for non-image data
+        * Limited applicability of data augmentation to non-image data
+        * \correctChoice{The potential introduction of unrealistic patterns}
+        * No challenges; data augmentation is equally effective for all data types
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    Explain the term "mixup" in the context of data augmentation and how it differs from traditional augmentation techniques.
+    \begin{choice}(1)
+        * \correctChoice{Mixup involves blending two or more samples, creating new synthetic samples with averaged labels.}
+        * Mixup is a synonym for image rotation.
+        * Mixup refers to the addition of random noise to input features.
+        * Mixup is irrelevant to data augmentation.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    How does data augmentation impact the interpretability of machine learning models?
+    \begin{choice} (1)
+        * Data augmentation improves model interpretability by providing more diverse training examples.
+        * Data augmentation has no impact on model interpretability.
+        * \correctChoice{Data augmentation reduces model interpretability due to the introduction of synthetic samples.}
+        * Data augmentation improves model interpretability by eliminating the need for validation data.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    What is the role of "cutout" in image data augmentation?
+    \begin{choice} (1)
+        * \correctChoice{To remove random portions from images}
+        * To blur the edges of images
+        * To rotate images
+        * To resize images
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\begin{exercise}
+    In the context of data augmentation, explain how the technique of "shearing" is applied to image data.
+    \begin{choice} (1)
+        * Shearing involves adjusting the brightness of images.
+        * Shearing is irrelevant to data augmentation.
+        * \correctChoice{Shearing introduces non-linear distortions to the image by tilting it along one of its axes.}
+        * Shearing is a synonym for image rotation.
+    \end{choice}
+\end{exercise}
+\begin{solution}
+\end{solution}
+
+\newpage
+\begin{multicols*}{2}
+    \printsolutions*
+\end{multicols*}
+\end{document}
