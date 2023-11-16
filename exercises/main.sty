@@ -1,0 +1,89 @@
+\ProvidesPackage{main}
+\newlength\dottedlinefillheight
+\setlength\dottedlinefillheight{.25in}
+
+\def\fillwithdottedlines{%
+    \begingroup
+    \ifhmode
+        \par
+    \fi
+    \hrule height \z@
+    \nobreak
+    \setbox0=\hbox to \hsize{\hskip \@totalleftmargin
+        \vrule height \dottedlinefillheight depth \z@ width \z@
+        \dotfill}%
+    \cleaders \copy0 \vfill \hbox{}%
+    \endgroup
+}
+\usepackage{xcolor-material}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[super]{nth}
+\usepackage{hyperref}
+\usepackage{sidenotes}
+\usepackage[c]{esvect}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\newcommand{\oldfactorial}[1]{%
+    \tikz[baseline]{\node[anchor=base,inner sep=0.3ex](mynode){\ensuremath{#1}};\draw(mynode.north west)--(mynode.south west)--(mynode.south east);\path[use as bounding box]($(mynode.south west)+(-0.3ex,-0.3ex)$)rectangle($(mynode.north east)+(0.3ex,0.3ex)$);}}
+\usepackage{ifthen}
+\usepackage{subfiles}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{xsim}
+\usepackage{tasks}
+\hypersetup{colorlinks,linkcolor=black}
+\usepackage{booktabs} % Better horizontal rules in tables
+\usepackage{graphicx} % Needed to insert images into the document
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio} % Improves figure scaling
+\newcounter{sections}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{1}
+\newcommand{\session}[2]{\textit{(\nth{#1} session #2)}}
+\newcommand{\meterperscondsquare}{\textbf{m./$\text{sec.}^2$}}
+\newcommand{\per}[3]{$\frac{\mathbf{#1}}{\mathbf{#2}^{#3}}$}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,minimum size = 0.6cm,inner sep=1.5pt] (char) {#1};}}
+\newcommand*\filledCircle[1]{\tikz[baseline=(char.base)]{\node[shape=circle,fill=black,minimum size = 0.6cm,text=white,inner sep=1.5pt] (char) {#1};}}
+\newcommand*\blackCircle[1]{\tikz[baseline=(char.base)]{\node[shape=circle,fill=black,minimum size = 0.6cm,text=white,inner sep=0] (char) {#1};}}
+\newcommand*\numcircledmod[1]{\raisebox{.5pt}{\textcircled{\raisebox{-.9pt} {#1}}}}
+\DeclareExerciseEnvironmentTemplate{item}{\item}{}
+\DeclareExerciseProperty{correctChoice}
+\NewTasksEnvironment[
+    label-format = \circled,\nlabel =\alph*,label-width = 23pt
+]{choice}[*]
+\NewTasksEnvironment[
+    label = (\textit{\arabic*}),
+    label-width = 21pt
+]{arabicChoice}[\choice]
+\settasks{
+    label = (\textit{\arabic*}),
+    label-width = 21pt
+}
+\newcommand*\correctChoice[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctChoice}
+        { (\noexpand\textit{\alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\DeclareExerciseEnvironmentTemplate{number-only}{% 
+    \par\noindent
+    \textbf{\GetExerciseProperty{counter-value}}.% 
+    \GetExercisePropertyT{subtitle}{ 	extit{#1}} %
+}{\par}
+\DeclareExerciseEnvironmentTemplate{solution-number-only}{%
+    \par\noindent
+    \textbf{\GetExerciseProperty{counter-value}}.\space%
+}{\par}
+\DeclareExerciseEnvironmentTemplate{solution-sol-number-only}{%
+    \par\noindent
+    \textbf{Solution-\GetExerciseProperty{counter-value}}.\space%
+}{\par}
+\newenvironment{questions}
+{\itemize}
+{\enditemize}
+\xsimsetup{
+    exercise/the-counter=\arabic{exercise},
+    exercise/template=number-only,
+    solution/template=solution-sol-number-only,
+    solution/print=false,
+    exercise/within=section
+}
