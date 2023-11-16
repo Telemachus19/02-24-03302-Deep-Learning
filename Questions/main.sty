@@ -25,12 +25,16 @@
 \newcommand{\session}[2]{\textit{(\nth{#1} session #2)}}
 \newcommand{\meterperscondsquare}{\textbf{m./$\text{sec.}^2$}}
 \newcommand{\per}[3]{$\frac{\mathbf{#1}}{\mathbf{#2}^{#3}}$}
-\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,minimum size = 0.5cm,inner sep=1.5pt] (char) {#1};}}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,minimum size = 0.5cm,inner sep=1pt] (char) {#1};}}
 \newcommand*\filledCircle[1]{\tikz[baseline=(char.base)]{\node[shape=circle,fill=black,minimum size = 0.6cm,text=white,inner sep=1.5pt] (char) {#1};}}
 \newcommand*\blackCircle[1]{\tikz[baseline=(char.base)]{\node[shape=circle,fill=black,minimum size = 0.6cm,text=white,inner sep=0] (char) {#1};}}
 \newcommand*\numcircledmod[1]{\raisebox{.5pt}{\textcircled{\raisebox{-.9pt} {#1}}}}
 \DeclareExerciseEnvironmentTemplate{item}{\item}{}
-\DeclareExerciseProperty{correctChoice}
+\DeclareExerciseProperty{correctchoice}
+\DeclareExerciseProperty{correctchoicetwo}
+\DeclareExerciseProperty{correctchoicethree}
+\DeclareExerciseProperty{correctchoicefour}
+\DeclareExerciseProperty{correctchoicefive}
 \NewTasksEnvironment[
     label-format = \circled,
     label = \alph*,
@@ -44,16 +48,40 @@
     label = (\textit{\arabic*}),
     label-width = 21pt
 }
-\newcommand*\correctChoice[1]{% 
+\newcommand*\correctchoice[1]{% 
     \XSIMexpandcode{% 
-        \SetExerciseProperty{correctChoice}
+        \SetExerciseProperty{correctchoice}
+        {(\noexpand\textbf{\alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\newcommand*\correctchoicetwo[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctchoicetwo}
+        {(\noexpand\textbf{\alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\newcommand*\correctchoicethree[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctchoicethree}
+        {(\noexpand\textbf{\alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\newcommand*\correctchoicefour[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctchoicefour}
+        {(\noexpand\textbf{\alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\newcommand*\correctchoicefive[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctchoicefive}
         {(\noexpand\textbf{\alph{task}}) \unexpanded{#1}}}% 
     #1%
 }
 \newcommand*\getanswers{%
     \def\betweenanswers{\def\betweenanswers{\hspace{2em}}}%
     \ForEachUsedExerciseByID{%
-        ##3\ExercisePropertyGet{##1}{##2}{correctChoice} \newline%
+        ##3\ExercisePropertyGet{##1}{##2}{correctchoice} \newline%
     }%
 }
 \DeclareExerciseEnvironmentTemplate{number-only}{% 
@@ -63,7 +91,7 @@
 }{\par}
 \DeclareExerciseEnvironmentTemplate{solution-number-only}{%
     \par\noindent
-    \textbf{\GetExerciseProperty{counter-value}}.\space \GetExerciseProperty{correctChoice}%
+    \textbf{\GetExerciseProperty{counter-value}}.\GetExercisePropertyT{correctchoice}{#1}\GetExercisePropertyT{correctchoicetwo}{\newline#1}\GetExercisePropertyT{correctchoicethree}{\newline#1}\GetExercisePropertyT{correctchoicefour}{\newline#1}\GetExercisePropertyT{correctchoicefive}{\newline#1}
 }{\par}
 \DeclareExerciseEnvironmentTemplate{solution-sol-number-only}{%
     \par\noindent
