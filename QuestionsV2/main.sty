@@ -1,0 +1,109 @@
+\ProvidesPackage{main}
+\usepackage{xcolor-material}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[super]{nth}
+\usepackage{hyperref}
+\usepackage{sidenotes}
+\usepackage[c]{esvect}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\newcommand{\oldfactorial}[1]{%
+    \tikz[baseline]{\node[anchor=base,inner sep=0.3ex](mynode){\ensuremath{#1}};\draw(mynode.north west)--(mynode.south west)--(mynode.south east);\path[use as bounding box]($(mynode.south west)+(-0.3ex,-0.3ex)$)rectangle($(mynode.north east)+(0.3ex,0.3ex)$);}}
+\usepackage{ifthen}
+\usepackage{subfiles}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{xsim}
+\usepackage{tasks}
+\hypersetup{colorlinks,linkcolor=black}
+\usepackage{booktabs} % Better horizontal rules in tables
+\usepackage{graphicx} % Needed to insert images into the document
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio} % Improves figure scaling
+\newcounter{sections}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{1}
+\newcommand{\session}[2]{\textit{(\nth{#1} session #2)}}
+\newcommand{\meterperscondsquare}{\textbf{m./$\text{sec.}^2$}}
+\newcommand{\per}[3]{$\frac{\mathbf{#1}}{\mathbf{#2}^{#3}}$}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,minimum size = 0.5cm,inner sep=1pt] (char) {#1};}}
+\newcommand*\filledCircle[1]{\tikz[baseline=(char.base)]{\node[shape=circle,fill=black,minimum size = 0.6cm,text=white,inner sep=1.5pt] (char) {#1};}}
+\newcommand*\blackCircle[1]{\tikz[baseline=(char.base)]{\node[shape=circle,fill=black,minimum size = 0.6cm,text=white,inner sep=0] (char) {#1};}}
+\newcommand*\numcircledmod[1]{\raisebox{.5pt}{\textcircled{\raisebox{-.9pt} {#1}}}}
+\DeclareExerciseEnvironmentTemplate{item}{\item}{}
+\DeclareExerciseProperty{correctchoice}
+\DeclareExerciseProperty{correctchoicetwo}
+\DeclareExerciseProperty{correctchoicethree}
+\DeclareExerciseProperty{correctchoicefour}
+\DeclareExerciseProperty{correctchoicefive}
+\NewTasksEnvironment[
+    label-format = \circled,
+    label = \Alph*,
+    label-width = 18pt
+]{choice}[*]
+\NewTasksEnvironment[
+    label = (\textit{\arabic*}),
+    label-width = 21pt
+]{arabicChoice}[\choice]
+\settasks{
+    label = (\textit{\arabic*}),
+    label-width = 21pt
+}
+\newcommand*\correctchoice[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctchoice}
+        {(\noexpand\textbf{\Alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\newcommand*\correctchoicetwo[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctchoicetwo}
+        {(\noexpand\textbf{\Alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\newcommand*\correctchoicethree[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctchoicethree}
+        {(\noexpand\textbf{\Alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\newcommand*\correctchoicefour[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctchoicefour}
+        {(\noexpand\textbf{\Alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\newcommand*\correctchoicefive[1]{% 
+    \XSIMexpandcode{% 
+        \SetExerciseProperty{correctchoicefive}
+        {(\noexpand\textbf{\Alph{task}}) \unexpanded{#1}}}% 
+    #1%
+}
+\newcommand*\getanswers{%
+    \def\betweenanswers{\def\betweenanswers{\hspace{2em}}}%
+    \ForEachUsedExerciseByID{%
+        ##3\ExercisePropertyGet{##1}{##2}{correctchoice} \newline%
+    }%
+}
+\DeclareExerciseEnvironmentTemplate{number-only}{% 
+    \par\noindent
+    \textbf{\GetExerciseProperty{counter-value}}.% 
+    \GetExercisePropertyT{subtitle}{ \textit{#1}} %
+}{\par}
+\DeclareExerciseEnvironmentTemplate{solution-number-only}{%
+    \par\noindent
+    \textbf{\GetExerciseProperty{counter-value}}.\GetExercisePropertyT{correctchoice}{#1}\GetExercisePropertyT{correctchoicetwo}{\newline#1}\GetExercisePropertyT{correctchoicethree}{\newline#1}\GetExercisePropertyT{correctchoicefour}{\newline#1}\GetExercisePropertyT{correctchoicefive}{\newline#1}
+}{\par}
+\DeclareExerciseEnvironmentTemplate{solution-sol-number-only}{%
+    \par\noindent
+    \textbf{Solution-\GetExerciseProperty{counter-value}}.\space%
+}{\par}
+\newenvironment{questions}
+{\itemize}
+{\enditemize}
+\xsimsetup{
+    exercise/the-counter=\arabic{exercise},
+    exercise/template=number-only,
+    solution/template=solution-number-only,
+    solution/print=false,
+    exercise/within=section
+}
