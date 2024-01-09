@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1704842225 "d:/computer-science/03x01/02-24-03302-Deep-Learning/Questions/main.tex" "main.pdf" "main" 1704842330 0
+["pdflatex"] 1704842774 "d:/computer-science/03x01/02-24-03302-Deep-Learning/Questions/main.tex" "main.pdf" "main" 1704842979 0
   "C:/Users/aashr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1704461818 252032 16d625f94b5b8a9366d18f1145422d0e ""
   "C:/Users/aashr/AppData/Local/MiKTeX/fonts/tfm/public/esvect/vect10.tfm" 1704461243 372 07da2e555f4c8dac959d0bb59cacb4dc ""
   "C:/Users/aashr/AppData/Local/MiKTeX/fonts/tfm/public/esvect/vect5.tfm" 1704558606 372 28e18d88a38be26cb20dc1302f0fdc04 ""
@@ -195,15 +195,15 @@
   "C:/Users/aashr/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/aashr/AppData/Local/Programs/MiKTeX/tex/latex/xsim/xsim.sty" 1644675661 180997 624efe72f8749c215172b82a0d546d9d ""
   "C:/Users/aashr/AppData/Local/Programs/MiKTeX/tex/latex/xsim/xsimverb.sty" 1644675661 10308 0ecb0ac139d5c460400042bd3f3f4641 ""
-  "d:/computer-science/03x01/02-24-03302-Deep-Learning/Questions/main.tex" 1704842065 100423 cc60f524ccb08dda22417464d8a4f844 ""
+  "d:/computer-science/03x01/02-24-03302-Deep-Learning/Questions/main.tex" 1704842582 100417 f5f8f86ef34a67a5aed00daa1f1de0a5 ""
   "images/DL4.jpg" 1704832158 24471 cdd71d6bc68154cf245a72466a90e9f7 ""
   "images/Q_table.png" 1704832158 4536 f556e81a95d47c8e53889e799cbcd9c1 ""
   "images/nn_layer.png" 1704832158 64383 bc6a06ac6e7c3bf0c7bd18cf7aa4cf24 ""
-  "main.aux" 1704842330 204 671ee95de5e2968fe35de072f939e718 "pdflatex"
-  "main.out" 1704842228 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.aux" 1704842978 204 3947e483a9a79394d15c306182e06e29 "pdflatex"
+  "main.out" 1704842776 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.sty" 1700461055 4378 2d965242ff85d4a590edcc4767505e5e ""
-  "main.tex" 1704842065 100423 cc60f524ccb08dda22417464d8a4f844 ""
-  "main.xsim" 1704842330 171446 fa66e6b3b599f1c385725c1ab9acf3d1 "pdflatex"
+  "main.tex" 1704842582 100417 f5f8f86ef34a67a5aed00daa1f1de0a5 ""
+  "main.xsim" 1704842978 171446 522c426dfada5c4625488af114410b3b "pdflatex"
   (generated)
   "main.aux"
   "main.log"
