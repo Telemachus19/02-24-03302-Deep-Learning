@@ -7,6 +7,8 @@
 \graphicspath{ {images/} }
 
 \begin{document}
+
+% Checked
 \begin{exercise}
     \dots the weights may be reduced to zero.
     \begin{choice}(4)
@@ -19,6 +21,7 @@
 \begin{solution}
 \end{solution}
 
+% Checked
 \begin{exercise}
     Bagging is an ensemble technique that:
     \begin{choice}
@@ -471,7 +474,7 @@
 \end{solution}
 
 \begin{exercise}
-    Assume a simple MLP model with 3 neurons and inputs= 1,2,3. The weights to the input neurons are 4,5 and 6 respectively. Assume the activation function is a linear constant value of 3. What will be the output ?
+    Assume a simple MLP model with 3 neurons and inputs = 1,2,3. The weights to the input neurons are 4,5 and 6 respectively. Assume the activation function is a linear constant value of 3. What will be the output ?
     \begin{choice} (4)
         * 32
         * 64
@@ -1850,11 +1853,13 @@
 \end{solution}
 
 \begin{exercise}
-    Which of the following option is correct for the below-mentioned techniques?\\
-    1.AdaGrad uses first order differentiation\\
-    2.L-BFGS uses second order differentiation\\
-    3.AdaGrad uses second order differentiation\\
-    4.L-BFGS uses first order differentiation
+    Which of the following option is correct for the below-mentioned techniques?
+    \begin{enumerate}
+        \item AdaGrad uses first order differentiation
+        \item L-BFGS uses second order differentiation
+        \item AdaGrad uses second order differentiation
+        \item L-BFGS uses first order differentiation
+    \end{enumerate}
     \begin{choice} (4)
         * \correctchoice{1 and 2}
         * 3 and 4
@@ -1877,10 +1882,10 @@
 
 \begin{exercise}
     Suppose we have a deep neural network model which was trained on a vehicle detection problem. The dataset consisted of images on cars and trucks and the aim was to detect name of the vehicle (the number of classes of vehicles are 10).
-    Now you want to use this model on different dataset which has images of only Ford Mustangs (aka car) and the task is to locate the car in an image.\\
+    Now you want to use this model on different dataset which has images of only Ford Mustangs (aka car) and the task is to locate the car in an image.
 
     Which of the following categories would be suitable for this type of problem?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * \correctchoice{Fine tune only the last couple of layers and change the last layer (classification layer) to regression layer}
         * Freeze all the layers except the last, re-train the last layer
         * Re-train the model for the new dataset
@@ -1926,7 +1931,7 @@
 
 \begin{exercise}
     Which of the following options can be used to reduce overfitting in deep learning models?
-    \begin{choice} (5)
+    \begin{choice} (2)
         * Add more data
         * Use data augmentation 
         * Use architecture that generalizes well
@@ -1949,35 +1954,42 @@
 \end{solution}
 
 \begin{exercise}
-    Suppose an input to Max-Pooling layer is given above. The pooling size of neurons in the layer is (3, 3).\\
-
-    \includegraphics[width=0.5\textwidth,height=.5\textwidth]{Q_table}
-
-    \begin{choice} (4)
-        * 3
-        * 5
-        * 5.5
-        *\correctchoice{7}
-    \end{choice}
+    \begin{minipage}[t]{.6\textwidth}
+    Suppose an input to Max-Pooling layer is given above. The pooling size of neurons in the layer is (3, 3).
+        \begin{choice} (2)
+            * 3
+            * 5
+            * 5.5
+            *\correctchoice{7}
+        \end{choice}
+    \end{minipage}
+    \begin{minipage}[t]{.3\textwidth}
+        \vspace*{0pt}
+        \includegraphics{Q_table}
+    \end{minipage}
 \end{exercise}
 \begin{solution}
 \end{solution}
 
 \begin{exercise}
-    If we remove the ReLU layers, we can still use this neural network to model non-linear functions.\\
-
-    \includegraphics[width=0.5\textwidth,height=.5\textwidth]{nn_layer}
-    \begin{choice} (2)
-        * True
-        *\correctchoice{False}
-    \end{choice}
+    \begin{minipage}[t]{.6\textwidth}
+        If we remove the ReLU layers, we can still use this neural network to model non-linear functions.    
+        \begin{choice} (2)
+            * True
+            *\correctchoice{False}
+        \end{choice}
+    \end{minipage}
+    \begin{minipage}[t]{.3\textwidth}
+        \vspace*{0pt}
+        \includegraphics[scale = .2]{nn_layer}    
+    \end{minipage}
 \end{exercise}
 \begin{solution}
 \end{solution}
 
 \begin{exercise}
     Deep learning can be applied to which of the following NLP tasks?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * Machine translation
         * Sentiment analysis
         * Question Answering system
@@ -1988,11 +2000,11 @@
 \end{solution}
 
 \begin{exercise}
-    Scenario 1: You are given data of the map of Arcadia city, with aerial photographs of the city and its outskirts. The task is to segment the areas into industrial land, farmland, and natural landmarks like rivers, mountains, etc. \\
+    Scenario 1: You are given data of the map of Arcadia city, with aerial photographs of the city and its outskirts. The task is to segment the areas into industrial land, farmland, and natural landmarks like rivers, mountains, etc.
 
-    Scenario 2: You are given data of the map of Arcadia city, with detailed roads and distances between landmarks. This is represented as a graph structure. The task is to find out the nearest distance between two landmarks.\\
+    Scenario 2: You are given data of the map of Arcadia city, with detailed roads and distances between landmarks. This is represented as a graph structure. The task is to find out the nearest distance between two landmarks.
 
-    Can deep learning be applied to Scenario 1 but not Scenario 2?
+    \noindent Can deep learning be applied to Scenario 1 but not Scenario 2?
     \begin{choice} (2)
         * TRUE
         *\correctchoice{FALSE}
@@ -2003,7 +2015,7 @@
 
 \begin{exercise}
     Which of the following is a data augmentation technique used in image recognition tasks?
-    \begin{choice} (7)
+    \begin{choice} (4)
         * Horizontal flipping
         * Random cropping
         * Random scaling
@@ -2017,10 +2029,10 @@
 \end{solution}
 
 \begin{exercise}
-    Given an n-character word, we want to predict which character would be the n+1th character in the sequence. For example, our input is “predictio” (which is a 9-character word) and we have to predict what would be the 10th character.\\
+    Given an n-character word, we want to predict which character would be the n+1th character in the sequence. For example, our input is “predictio” (which is a 9-character word) and we have to predict what would be the 10th character.
 
     Which neural network architecture would be suitable to complete this task?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * Fully-Connected Neural Network
         * Convolutional Neural Network
         *\correctchoice{Recurrent Neural Network}
@@ -2071,7 +2083,8 @@
 \end{solution}
 
 \begin{exercise}
-    Exploding gradient problem is an issue in training deep networks where the gradient gets so large that the loss goes to an infinitely high value and then explodes.\\ What is the probable approach when dealing with the "Exploding Gradient" problem in RNNs?
+    Exploding gradient problem is an issue in training deep networks where the gradient gets so large that the loss goes to an infinitely high value and then explodes.
+    What is the probable approach when dealing with the "Exploding Gradient" problem in RNNs?
     \begin{choice} (2)
         * Use modified architectures like LSTM and GRUs
         *\correctchoice{Gradient clipping}
@@ -2083,8 +2096,10 @@
 \end{solution}
 
 \begin{exercise}
-    There are many types of gradient descent algorithms. Two of the most notable ones are l-BFGS and SGD. l-BFGS is a second-order gradient descent technique whereas SGD is a first-order gradient descent technique.\\ In which of the following scenarios would you prefer l-BFGS over SGD?
-    \begin{choice} (4)
+    There are many types of gradient descent algorithms. Two of the most notable ones are l-BFGS and SGD. l-BFGS is a second-order gradient descent technique whereas SGD is a first-order gradient descent technique.
+    
+    \noindent In which of the following scenarios would you prefer l-BFGS over SGD?
+    \begin{choice} (2)
         * Data is sparse
         * Number of parameters of neural network are small
         * \correctchoice{Both of them}
@@ -2120,7 +2135,7 @@
 
 \begin{exercise}
     Which of the following is correct?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * Dropout randomly masks the input weights to a neuron
         * Dropconnect randomly masks both input and output weights to a neuron
         *\correctchoice{1 is False and 2 is True}
@@ -2132,21 +2147,26 @@
 \end{solution}
 
 \begin{exercise}
-    While training a neural network for image recognition task, we plot the graph of training error and validation error for debugging.
-    \includegraphics[width=.5\textwidth, height=.5\textwidth]{DL4}
-    \begin{choice} (4)
-        * A
-        * B
-        *\correctchoice{C}
-        * D
-    \end{choice}
+    \begin{minipage}[t]{.6\textwidth}
+        While training a neural network for image recognition task, we plot the graph of training error and validation error for debugging.    
+        \begin{choice} (4)
+            * A
+            * B
+            *\correctchoice{C}
+            * D
+        \end{choice}
+    \end{minipage}
+    \begin{minipage}[t]{.3\textwidth}
+        \vspace*{0pt}
+        \includegraphics{DL4}    
+    \end{minipage}
 \end{exercise}
 \begin{solution}
     In dropout, neurons are dropped, whereas in dropconnect, connections are dropped. So, both input and output weights will be rendered useless in dropconnect, while only one of them should be dropped in dropconnect.
 \end{solution}
 
 \begin{exercise}
-    Backpropagation works by first calculating the gradient of \_\_\_ and then propagating it backward.
+    Backpropagation works by first calculating the gradient of \dots and then propagating it backward.
     \begin{choice} (4)
         * Sum of squared error with respect to inputs
         * Sum of squared error with respect to weights
@@ -2159,7 +2179,7 @@
 
 \begin{exercise}
     Mini-Batch sizes when defining a neural network are preferred to be multiples of 2's such as 256 or 512. What is the reason behind it?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * Gradient descent optimizes best when you use an even number
         *\correctchoice{Parallelization of the neural network is best when the memory is used optimally}
         * Losses are erratic when you don't use an even number
@@ -2171,7 +2191,7 @@
 
 \begin{exercise}
     As the length of a sentence increases, it becomes harder for a neural translation machine to perform as sentence meaning is represented by a fixed dimensional vector. To solve this, which of the following could we do?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * Use recursive units instead of recurrent
         *\correctchoice{Use attention mechanism}
         * Use character-level translation
@@ -2193,7 +2213,7 @@
 
 \begin{exercise}
     Which of the following is a bottleneck for deep learning algorithms?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * Data related to the problem
         * CPU to GPU communication
         * GPU memory
@@ -2214,7 +2234,7 @@
 \end{solution}
 
 \begin{exercise}
-    It is generally recommended to replace pooling layers in the generator part of convolutional generative adversarial nets with \_\_\_\_\_\_\_\_\_\_?
+    It is generally recommended to replace pooling layers in the generator part of convolutional generative adversarial nets with \dots?
     \begin{choice} (4)
         * Affine layer
         * Strided convolutional layer
@@ -2227,9 +2247,9 @@
 
 \begin{exercise}
     Which of the following statements is true with respect to GRU?
-    \begin{choice} (4)
-        *Units with short-term dependencies have a very active reset gate.
-        *Units with long-term dependencies have a very active update gate.
+    \begin{choice} (2)
+        * Units with short-term dependencies have a very active reset gate.
+        * Units with long-term dependencies have a very active update gate.
         * None of them
         * \correctchoice{Both 1 and 2}
     \end{choice}
@@ -2271,7 +2291,7 @@
 
 \begin{exercise}
     Suppose your task is to predict the next few notes of a song when you are given the preceding segment of the song. Which architecture of a neural network would be better suited to solve the problem?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * End-to-End fully connected neural network
         * \correctchoice{CNN followed by recurrent units}
         * Neural Turing Machine
@@ -2308,7 +2328,7 @@
 
 \begin{exercise}
     What is the advantage of using convolutional layers in a CNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{They can capture local spatial patterns in the input data}
         * They can handle sequential data
         * They can generate synthetic data
@@ -2320,7 +2340,7 @@
 
 \begin{exercise}
     What is the purpose of the pooling layer in a CNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * To introduce non-linearity to the network
         * \correctchoice{To reduce the spatial dimensions of the feature maps}
         * To adjust the weights and biases of the network
@@ -2332,7 +2352,7 @@
 
 \begin{exercise}
     Which activation function is commonly used in the convolutional layers of a CNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * Sigmoid
         * \correctchoice{ReLU (Rectified Linear Unit)}
         * Tanh (Hyperbolic Tangent)
@@ -2392,7 +2412,7 @@
 
 \begin{exercise}
     What is the purpose of the fully connected layers in a CNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To capture global patterns and make predictions}
         * To reduce the spatial dimensions of the input data
         * To apply non-linear transformations to the feature maps
@@ -2417,7 +2437,7 @@
 
 \begin{exercise}
     What is the purpose of dropout regularization in a CNN?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * \correctchoice{To randomly disable neurons during training to prevent overfitting}
         * To adjust the learning rate during training
         * To increase the number of layers in the network
@@ -2441,7 +2461,7 @@
 
 \begin{exercise}
     What is the primary advantage of using a CNN over a fully connected neural network for image processing tasks?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * CNNs have a higher training speed
         * CNNs can handle sequential data
         * CNNs have a higher number of neurons
@@ -2465,7 +2485,7 @@
 
 \begin{exercise}
     What is the purpose of the receptive field in a convolutional layer?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * To determine the number of filters in the layer
         * To determine the size of the feature maps
         * \correctchoice{To specify the size of the local region for the convolution operation}
@@ -2489,7 +2509,7 @@
 
 \begin{exercise}
     What is the purpose of the filter/kernel in a convolutional layer?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * To determine the number of neurons in the layer
         * To specify the size of the feature maps
         * \correctchoice{To extract local features from the input data}
@@ -2523,7 +2543,7 @@
 \begin{solution}
 \end{solution}
 
----
+
 
 \begin{exercise}
     Which layer type is responsible for introducing translation invariance in a CNN?
@@ -2539,7 +2559,7 @@
 
 \begin{exercise}
     What is the purpose of the output layer in a CNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To compute the predicted output based on the final feature representation}
         * To reduce the spatial dimensions of the input data
         * To apply non-linear transformations to the feature maps
@@ -2575,7 +2595,7 @@
 
 \begin{exercise}
     What is the purpose of the loss function in CNN training?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * \correctchoice{To measure the prediction error and guide the learning process}
         * To initialize the weights and biases of the network
         * To adjust the learning rate during training
@@ -2599,7 +2619,7 @@
 
 \begin{exercise}
     What is the purpose of the learning rate in CNN training?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * \correctchoice{To control the step size of the parameter updates during optimization}
         * To adjust the size of the filters in the convolutional layers
         * To increase the number of layers in the network
@@ -2623,7 +2643,7 @@
 
 \begin{exercise}
     What is the purpose of data augmentation in CNN training?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * To increase the number of layers in the network
         * \correctchoice{To introduce noise and variations in the training data}
         * To adjust the learning rate during training
@@ -2646,7 +2666,7 @@
 \end{solution}
 
 
----
+
 
 \begin{exercise}
     What is the primary purpose of a Recurrent Neural Network (RNN)?
@@ -2674,7 +2694,7 @@
 
 \begin{exercise}
     What is the advantage of using recurrent layers in an RNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * They can handle non-linear transformations
         * They can handle variable-length inputs
         * They can generate synthetic data
@@ -2686,7 +2706,7 @@
 
 \begin{exercise}
     What is the purpose of the hidden state in an RNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To store the information from the previous time step}
         * To adjust the learning rate during training
         * To compute the gradients for backpropagation
@@ -2698,7 +2718,7 @@
 
 \begin{exercise}
     Which activation function is commonly used in the recurrent layers of an RNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * ReLU (Rectified Linear Unit)
         * Sigmoid
         * \correctchoice{Tanh (Hyperbolic Tangent)}
@@ -2710,7 +2730,7 @@
 
 \begin{exercise}
     What is the purpose of the time step parameter in an RNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * To determine the number of recurrent layers in the network
         * To adjust the learning rate during training
         * \correctchoice{To specify the length of the input sequence}
@@ -2734,7 +2754,7 @@
 
 \begin{exercise}
     What is the purpose of the bidirectional RNN architecture?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * \correctchoice{To handle sequential data in both forward and backward directions}
         * To reduce the computational complexity of the network
         * To adjust the learning rate during training
@@ -2758,7 +2778,7 @@
 
 \begin{exercise}
     What is the purpose of the recurrent connection in an RNN?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To propagate the hidden state across different time steps}
         * To adjust the weights and biases of the network
         * To reduce the dimensionality of the input data
@@ -2782,7 +2802,7 @@
 
 \begin{exercise}
     What is the purpose of the backpropagation through time (BPTT) algorithm in RNN training?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * \correctchoice{To compute the gradients and update the network's parameters}
         * To adjust the learning rate during training
         * To prevent overfitting by regularizing the model
@@ -2806,7 +2826,7 @@
 
 \begin{exercise}
     What is the purpose of the initial hidden state in an RNN?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * \correctchoice{To provide the starting point for the recurrent computation}
         * To adjust the learning rate during training
         * To compute the gradients for backpropagation
@@ -2830,7 +2850,7 @@
 
 \begin{exercise}
     What is the purpose of the teacher forcing technique in RNN training?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * To adjust the learning rate during training
         * \correctchoice{To propagate the gradients through time}
         * To reduce the computational complexity of the network
@@ -2854,7 +2874,7 @@
 
 \begin{exercise}
     What is the purpose of the sequence-to-vector architecture in an RNN?
-    \begin{choice} (4)
+    \begin{choice} (1)
         * \correctchoice{To process an input sequence and produce a fixed-length representation}
         * To adjust the weights and biases of the network
         * To reduce the dimensionality of the input data
@@ -2878,7 +2898,7 @@
 
 \begin{exercise}
     What is the purpose of the forget gate in a Gated Recurrent Unit (GRU)?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To control the flow of information from the previous hidden state}
         * To adjust the learning rate during training
         * To compute the gradients for backpropagation
@@ -2902,7 +2922,7 @@
 
 \begin{exercise}
     What is the purpose of the peephole connections in a Long Short-Term Memory (LSTM) network?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To allow the cell state to influence the gating mechanisms}
         * To adjust the learning rate during training
         * To introduce non-linearity to the network
@@ -2926,7 +2946,7 @@
 
 \begin{exercise}
     What is the purpose of the cell state in an LSTM network?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To store long-term dependencies in the input sequence}
         * To adjust the learning rate during training
         * To compute the gradients for backpropagation
@@ -2950,7 +2970,7 @@
 
 \begin{exercise}
     What is the purpose of the input gate in an LSTM network?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To control the flow of information from the current input}
         * To adjust the learning rate during training
         * To introduce non-linearity to the network
@@ -2974,7 +2994,7 @@
 
 \begin{exercise}
     What is the purpose of the output gate in an LSTM network?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To control the flow of information to the current output}
         * To adjust the learning rate during training
         * To introduce non-linearity to the network
@@ -2998,7 +3018,7 @@
 
 \begin{exercise}
     What is the purpose of the reset gate in a Gated Recurrent Unit (GRU)?
-    \begin{choice} (4)
+    \begin{choice} (2)
         * \correctchoice{To reset the hidden state based on the current input}
         * To adjust the learning rate during training
         * To introduce non-linearity to the network
