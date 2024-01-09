@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1704817343.88627 "d:/02-24-03302-Deep-Learning/Questions/main.tex" "main.pdf" "main" 1704817362.80247 0
+["pdflatex"] 1704817670.08142 "d:/02-24-03302-Deep-Learning/Questions/main.tex" "main.pdf" "main" 1704817737.08532 0
   "C:/Users/ayous/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1704814679 199216 607b546aea28dada632bcea2b7efa2ca ""
   "C:/Users/ayous/AppData/Local/MiKTeX/fonts/tfm/public/esvect/vect10.tfm" 1704798433 372 07da2e555f4c8dac959d0bb59cacb4dc ""
   "C:/Users/ayous/AppData/Local/MiKTeX/fonts/tfm/public/esvect/vect5.tfm" 1704798435 372 28e18d88a38be26cb20dc1302f0fdc04 ""
@@ -195,15 +195,15 @@
   "C:/Users/ayous/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/ayous/AppData/Local/Programs/MiKTeX/tex/latex/xsim/xsim.sty" 1644675661 180997 624efe72f8749c215172b82a0d546d9d ""
   "C:/Users/ayous/AppData/Local/Programs/MiKTeX/tex/latex/xsim/xsimverb.sty" 1644675661 10308 0ecb0ac139d5c460400042bd3f3f4641 ""
-  "d:/02-24-03302-Deep-Learning/Questions/main.tex" 1704817323 96342 d0fb3e77ba2ec130a9e3f3250caaa4bd ""
+  "d:/02-24-03302-Deep-Learning/Questions/main.tex" 1704817669 99919 7547d482380272c92d1ca4202d96bea9 ""
   "images/DL4.jpg" 1704814637 24471 cdd71d6bc68154cf245a72466a90e9f7 ""
   "images/Q_table.png" 1704812800 4536 f556e81a95d47c8e53889e799cbcd9c1 ""
   "images/nn_layer.png" 1704813524 64383 bc6a06ac6e7c3bf0c7bd18cf7aa4cf24 ""
-  "main.aux" 1704817362 204 a769f2ff26b457ced98a5c51b0e613b9 "pdflatex"
-  "main.out" 1704817345 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.aux" 1704817736 204 3947e483a9a79394d15c306182e06e29 "pdflatex"
+  "main.out" 1704817671 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.sty" 1704795936 4378 2d965242ff85d4a590edcc4767505e5e ""
-  "main.tex" 1704817323 96342 d0fb3e77ba2ec130a9e3f3250caaa4bd ""
-  "main.xsim" 1704817362 164685 d73822aea32f6a330cfcde6242733747 "pdflatex"
+  "main.tex" 1704817669 99919 7547d482380272c92d1ca4202d96bea9 ""
+  "main.xsim" 1704817736 171181 8b6549aef441a7c21b37801820d14521 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
@@ -211,5 +211,3 @@
   "main.pdf"
   "main.xsim"
   (rewritten before read)
-  "main.aux"
-  "main.out"

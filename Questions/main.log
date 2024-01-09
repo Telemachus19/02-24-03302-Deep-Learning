@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.9)  9 JAN 2024 18:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.9)  9 JAN 2024 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -776,4 +776,571 @@ LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/c
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+ (C:\Users\ayous\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count365
+\scratchdimen=\dimen331
+\scratchbox=\box125
+\nofMPsegments=\count366
+\nofMParguments=\count367
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen332
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
+\everyMPtoPDFconversion=\toks41
+) (C:\Users\ayous\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\ayous\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) (C:\Users\ayous\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=542.02501pt
+* \textheight=722.7pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 9.
+(main.out) (main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen333
+\caption@adjustwidth@linewidth=\dimen334
+Package caption Info: End \AtBeginDocument code.
+\@sidenotes@extrawidth=\skip68
+\l__xsim_aux_file_iow=\write5
+\openout5 = `main.xsim'.
+
+ (C:\Users\ayous\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 9.
+\c@mv@tabular=\count371
+\c@mv@boldtabular=\count372
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 18.
+ [1
+
+{C:/Users/ayous/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_sfissr.enc}{C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc}] [2]
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 456.
+ (C:\Users\ayous\AppData\Local\Programs\MiKTeX\tex/latex/esvect\uesvect.fd
+File: uesvect.fd 
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 456.
+ (C:\Users\ayous\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 456.
+ (C:\Users\ayous\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3] [4] [5]
+LaTeX Font Info:    Trying to load font information for T1+LibertinusMono-TLF on input line 860.
+ (C:\Users\ayous\AppData\Local\Programs\MiKTeX\tex/latex/libertinus-type1\t1libertinusmono-tlf.fd
+File: T1LibertinusMono-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusMono-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LibertinusMono-TLF/m/n' will be
+(Font)              scaled to size 8.50006pt on input line 860.
+ [6{C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinus-type1/lbts_tll2u3.enc}] [7] [8] [9] [10] [11] [12] [13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 1889--1889
+
+ []
+
+
+Overfull \hbox (8.10452pt too wide) in paragraph at lines 1889--1889
+\T1/LibertinusSerif-TLF/m/n/10 last layer (clas-si-fi-ca-tion layer)
+ []
+
+
+Overfull \hbox (6.29512pt too wide) in paragraph at lines 1889--1889
+\T1/LibertinusSerif-TLF/m/n/10 the last, re-train the last layer| 
+ []
+
+
+Overfull \hbox (8.99887pt too wide) in paragraph at lines 1937--1937
+|\T1/LibertinusSerif-TLF/m/n/10 Use data augmentation| 
+ []
+
+
+Overfull \hbox (0.3188pt too wide) in paragraph at lines 1937--1937
+|\T1/LibertinusSerif-TLF/m/n/10 Use ar-chi-tec-ture that
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 1962--1962
+
+ []
+
+<images/Q_table.png, id=1022, 183.68625pt x 56.00925pt>
+File: images/Q_table.png Graphic file (type png)
+<use images/Q_table.png>
+Package pdftex.def Info: images/Q_table.png  used on input line 1962.
+(pdftex.def)             Requested size: 271.05536pt x 82.64964pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1974
+
+ []
+
+<images/nn_layer.png, id=1024, 220.4235pt x 337.86224pt>
+File: images/nn_layer.png Graphic file (type png)
+<use images/nn_layer.png>
+Package pdftex.def Info: images/nn_layer.png  used on input line 1974.
+(pdftex.def)             Requested size: 176.81662pt x 271.0222pt.
+
+Overfull \hbox (3.31758pt too wide) in paragraph at lines 1986--1986
+|\T1/LibertinusSerif-TLF/m/n/10 Question An-swer-ing system| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2000--2000
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2000--2000
+
+ []
+
+
+Overfull \hbox (24.69473pt too wide) in paragraph at lines 2015--2015
+[]|\T1/LibertinusSerif-TLF/m/n/10 Horizontal flipping| 
+ []
+
+
+Overfull \hbox (19.56474pt too wide) in paragraph at lines 2015--2015
+|\T1/LibertinusSerif-TLF/m/n/10 Random cropping| 
+ []
+
+
+Overfull \hbox (11.61479pt too wide) in paragraph at lines 2015--2015
+|\T1/LibertinusSerif-TLF/m/n/10 Random scaling| 
+ []
+
+
+Overfull \hbox (5.20476pt too wide) in paragraph at lines 2015--2015
+|\T1/LibertinusSerif-TLF/m/n/10 Color jittering| 
+ []
+
+
+Overfull \hbox (27.40474pt too wide) in paragraph at lines 2015--2015
+|\T1/LibertinusSerif-TLF/m/n/10 Random translation| 
+ []
+
+
+Overfull \hbox (18.26476pt too wide) in paragraph at lines 2015--2015
+|\T1/LibertinusSerif-TLF/m/n/10 Random shearing| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2029--2029
+
+ []
+
+[16 <./images/Q_table.png> <./images/nn_layer.png>]
+Overfull \hbox (24.30751pt too wide) in paragraph at lines 2029--2029
+[]|\T1/LibertinusSerif-TLF/m/n/10 Fully-Connected Neu-ral Network| 
+ []
+
+
+Overfull \hbox (14.75754pt too wide) in paragraph at lines 2029--2029
+|\T1/LibertinusSerif-TLF/m/n/10 Convolutional Neu-ral Network| 
+ []
+
+
+Overfull \hbox (13.18755pt too wide) in paragraph at lines 2029--2029
+|\T1/LibertinusSerif-TLF/m/n/10 Restricted Boltz-mann Machine| 
+ []
+
+
+Overfull \hbox (10.11156pt too wide) in paragraph at lines 2093--2093
+|\T1/LibertinusSerif-TLF/m/n/10 Number of pa-ram-e-ters of neu-
+ []
+
+
+Overfull \hbox (6.85457pt too wide) in paragraph at lines 2129--2129
+[]|\T1/LibertinusSerif-TLF/m/n/10 Dropout ran-domly masks the
+ []
+
+
+Overfull \hbox (10.80757pt too wide) in paragraph at lines 2129--2129
+|\T1/LibertinusSerif-TLF/m/n/10 Dropconnect ran-domly masks
+ []
+
+
+Overfull \hbox (10.79155pt too wide) in paragraph at lines 2129--2129
+\T1/LibertinusSerif-TLF/m/n/10 both in-put and out-put weights
+ []
+
+<images/DL4.jpg, id=1063, 420.06938pt x 255.95625pt>
+File: images/DL4.jpg Graphic file (type jpg)
+<use images/DL4.jpg>
+Package pdftex.def Info: images/DL4.jpg  used on input line 2143.
+(pdftex.def)             Requested size: 271.00998pt x 165.13152pt.
+[17 <./images/DL4.jpg>]
+Overfull \hbox (0.28459pt too wide) in paragraph at lines 2168--2168
+|\T1/LibertinusSerif-TLF/m/n/10 Parallelization of the neu-ral
+ []
+
+
+Overfull \hbox (14.71854pt too wide) in paragraph at lines 2168--2168
+\T1/LibertinusSerif-TLF/m/n/10 net-work is best when the mem-
+ []
+
+
+Overfull \hbox (0.12155pt too wide) in paragraph at lines 2168--2168
+|\T1/LibertinusSerif-TLF/m/n/10 Losses are er-ratic when you
+ []
+
+
+Overfull \hbox (12.68752pt too wide) in paragraph at lines 2180--2180
+|\T1/LibertinusSerif-TLF/m/n/10 Use character-level translation| 
+ []
+
+
+Overfull \hbox (4.76302pt too wide) in paragraph at lines 2202--2202
+|\T1/LibertinusSerif-TLF/m/n/10 CPU to GPU communication| 
+ []
+
+
+Overfull \hbox (6.90453pt too wide) in paragraph at lines 2236--2236
+[]|\T1/LibertinusSerif-TLF/m/n/10 Units with short-term de-pen-
+ []
+
+
+Overfull \hbox (3.80457pt too wide) in paragraph at lines 2236--2236
+|\T1/LibertinusSerif-TLF/m/n/10 Units with long-term de-pen-
+ []
+
+
+Overfull \hbox (0.46758pt too wide) in paragraph at lines 2280--2280
+[]|\T1/LibertinusSerif-TLF/m/n/10 End-to-End fully con-nected
+ []
+
+
+Overfull \hbox (4.78856pt too wide) in paragraph at lines 2317--2317
+\T1/LibertinusSerif-TLF/m/n/10 tial pat-terns in the in-put data| 
+ []
+
+
+Overfull \hbox (2.57458pt too wide) in paragraph at lines 2317--2317
+|\T1/LibertinusSerif-TLF/m/n/10 They can gen-er-ate syn-thetic
+ []
+
+
+Overfull \hbox (4.78856pt too wide) in paragraph at lines 2317--2317
+\T1/LibertinusSerif-TLF/m/n/10 tial pat-terns in the in-put data| 
+ []
+
+
+Overfull \hbox (2.53154pt too wide) in paragraph at lines 2329--2329
+|\T1/LibertinusSerif-TLF/m/n/10 To re-duce the spa-tial di-men-
+ []
+
+
+Overfull \hbox (4.77158pt too wide) in paragraph at lines 2329--2329
+|\T1/LibertinusSerif-TLF/m/n/10 To com-pute the gra-di-ents for
+ []
+
+
+Overfull \hbox (2.51376pt too wide) in paragraph at lines 2341--2341
+|\T1/LibertinusSerif-TLF/m/n/10 ReLU (Rec-ti-fied Lin-ear Unit)| 
+ []
+
+[18]
+Overfull \hbox (2.53154pt too wide) in paragraph at lines 2401--2401
+|\T1/LibertinusSerif-TLF/m/n/10 To re-duce the spa-tial di-men-
+ []
+
+
+Overfull \hbox (12.21153pt too wide) in paragraph at lines 2401--2401
+\T1/LibertinusSerif-TLF/m/n/10 for-ma-tions to the fea-ture maps| 
+ []
+
+
+Overfull \hbox (1.95155pt too wide) in paragraph at lines 2401--2401
+|\T1/LibertinusSerif-TLF/m/n/10 To ini-tial-ize the weights and
+ []
+
+
+Overfull \hbox (5.85458pt too wide) in paragraph at lines 2426--2426
+[]|\T1/LibertinusSerif-TLF/m/n/10 To ran-domly dis-able neu-rons
+ []
+
+
+Overfull \hbox (2.3946pt too wide) in paragraph at lines 2450--2450
+|\T1/LibertinusSerif-TLF/m/n/10 CNNs can han-dle se-quen-tial
+ []
+
+
+Overfull \hbox (1.6716pt too wide) in paragraph at lines 2450--2450
+|\T1/LibertinusSerif-TLF/m/n/10 CNNs can cap-ture lo-cal spa-
+ []
+
+
+Overfull \hbox (4.78856pt too wide) in paragraph at lines 2450--2450
+\T1/LibertinusSerif-TLF/m/n/10 tial pat-terns in the in-put data| 
+ []
+
+
+Overfull \hbox (0.92157pt too wide) in paragraph at lines 2474--2474
+[]|\T1/LibertinusSerif-TLF/m/n/10 To de-ter-mine the num-ber of
+ []
+
+
+Overfull \hbox (0.92157pt too wide) in paragraph at lines 2498--2498
+[]|\T1/LibertinusSerif-TLF/m/n/10 To de-ter-mine the num-ber of
+ []
+
+
+Overfull \hbox (3.81555pt too wide) in paragraph at lines 2498--2498
+|\T1/LibertinusSerif-TLF/m/n/10 To spec-ify the size of the fea-
+ []
+
+
+Overfull \hbox (6.27153pt too wide) in paragraph at lines 2498--2498
+|\T1/LibertinusSerif-TLF/m/n/10 To ex-tract lo-cal fea-tures from
+ []
+
+[19]
+Overfull \hbox (9.97151pt too wide) in paragraph at lines 2548--2548
+[]|\T1/LibertinusSerif-TLF/m/n/10 To com-pute the pre-dicted out-
+ []
+
+
+Overfull \hbox (2.53154pt too wide) in paragraph at lines 2548--2548
+|\T1/LibertinusSerif-TLF/m/n/10 To re-duce the spa-tial di-men-
+ []
+
+
+Overfull \hbox (12.21153pt too wide) in paragraph at lines 2548--2548
+\T1/LibertinusSerif-TLF/m/n/10 for-ma-tions to the fea-ture maps| 
+ []
+
+
+Overfull \hbox (1.95155pt too wide) in paragraph at lines 2548--2548
+|\T1/LibertinusSerif-TLF/m/n/10 To ini-tial-ize the weights and
+ []
+
+
+Overfull \hbox (1.95155pt too wide) in paragraph at lines 2584--2584
+|\T1/LibertinusSerif-TLF/m/n/10 To ini-tial-ize the weights and
+ []
+
+
+Overfull \hbox (13.08154pt too wide) in paragraph at lines 2608--2608
+\T1/LibertinusSerif-TLF/m/n/10 ters in the con-vo-lu-tional layers| 
+ []
+
+
+Overfull \hbox (1.64156pt too wide) in paragraph at lines 2632--2632
+|\T1/LibertinusSerif-TLF/m/n/10 To in-tro-duce noise and vari-
+ []
+
+
+Overfull \hbox (2.57458pt too wide) in paragraph at lines 2683--2683
+|\T1/LibertinusSerif-TLF/m/n/10 They can gen-er-ate syn-thetic
+ []
+
+
+Overfull \hbox (11.44153pt too wide) in paragraph at lines 2683--2683
+\T1/LibertinusSerif-TLF/m/n/10 de-pen-den-cies in the in-put data| 
+ []
+
+
+Overfull \hbox (8.23154pt too wide) in paragraph at lines 2695--2695
+[]|\T1/LibertinusSerif-TLF/m/n/10 To store the in-for-ma-tion from
+ []
+
+
+Overfull \hbox (4.77158pt too wide) in paragraph at lines 2695--2695
+|\T1/LibertinusSerif-TLF/m/n/10 To com-pute the gra-di-ents for
+ []
+
+
+Overfull \hbox (2.51376pt too wide) in paragraph at lines 2707--2707
+[]|\T1/LibertinusSerif-TLF/m/n/10 ReLU (Rec-ti-fied Lin-ear Unit)| 
+ []
+
+[20]
+Overfull \hbox (0.92157pt too wide) in paragraph at lines 2719--2719
+[]|\T1/LibertinusSerif-TLF/m/n/10 To de-ter-mine the num-ber of
+ []
+
+
+Overfull \hbox (14.17146pt too wide) in paragraph at lines 2719--2719
+\T1/LibertinusSerif-TLF/m/n/10 re-cur-rent lay-ers in the network| 
+ []
+
+
+Overfull \hbox (1.3216pt too wide) in paragraph at lines 2743--2743
+[]|\T1/LibertinusSerif-TLF/m/n/10 To han-dle se-quen-tial data in
+ []
+
+
+Overfull \hbox (0.54451pt too wide) in paragraph at lines 2743--2743
+\T1/LibertinusSerif-TLF/m/n/10 both for-ward and back-ward
+ []
+
+
+Overfull \hbox (4.17456pt too wide) in paragraph at lines 2743--2743
+|\T1/LibertinusSerif-TLF/m/n/10 To re-duce the com-pu-ta-tional
+ []
+
+
+Overfull \hbox (7.74152pt too wide) in paragraph at lines 2767--2767
+[]|\T1/LibertinusSerif-TLF/m/n/10 To prop-a-gate the hid-den state
+ []
+
+
+Overfull \hbox (7.96158pt too wide) in paragraph at lines 2791--2791
+[]|\T1/LibertinusSerif-TLF/m/n/10 To com-pute the gra-di-ents and
+ []
+
+
+Overfull \hbox (21.90446pt too wide) in paragraph at lines 2791--2791
+\T1/LibertinusSerif-TLF/m/n/10 up-date the net-work's parameters| 
+ []
+
+
+Overfull \hbox (7.38147pt too wide) in paragraph at lines 2791--2791
+|\T1/LibertinusSerif-TLF/m/n/10 To pre-vent over-fit-ting by reg-
+ []
+
+
+Overfull \hbox (3.79152pt too wide) in paragraph at lines 2815--2815
+[]|\T1/LibertinusSerif-TLF/m/n/10 To pro-vide the start-ing point
+ []
+
+
+Overfull \hbox (9.32451pt too wide) in paragraph at lines 2815--2815
+\T1/LibertinusSerif-TLF/m/n/10 for the re-cur-rent computation| 
+ []
+
+
+Overfull \hbox (4.77158pt too wide) in paragraph at lines 2815--2815
+|\T1/LibertinusSerif-TLF/m/n/10 To com-pute the gra-di-ents for
+ []
+
+
+Overfull \hbox (4.17456pt too wide) in paragraph at lines 2839--2839
+|\T1/LibertinusSerif-TLF/m/n/10 To re-duce the com-pu-ta-tional
+ []
+
+
+Overfull \hbox (6.23158pt too wide) in paragraph at lines 2863--2863
+[]|\T1/LibertinusSerif-TLF/m/n/10 To pro-cess an in-put se-quence
+ []
+
+
+Overfull \hbox (9.3415pt too wide) in paragraph at lines 2887--2887
+\T1/LibertinusSerif-TLF/m/n/10 ma-tion from the pre-vi-ous hid-
+ []
+
+
+Overfull \hbox (4.77158pt too wide) in paragraph at lines 2887--2887
+|\T1/LibertinusSerif-TLF/m/n/10 To com-pute the gra-di-ents for
+ []
+
+[21]
+Overfull \hbox (13.2146pt too wide) in paragraph at lines 2911--2911
+\T1/LibertinusSerif-TLF/m/n/10 flu-ence the gat-ing mechanisms| 
+ []
+
+
+Overfull \hbox (6.82158pt too wide) in paragraph at lines 2935--2935
+\T1/LibertinusSerif-TLF/m/n/10 den-cies in the in-put sequence| 
+ []
+
+
+Overfull \hbox (4.77158pt too wide) in paragraph at lines 2935--2935
+|\T1/LibertinusSerif-TLF/m/n/10 To com-pute the gra-di-ents for
+ []
+
+
+Overfull \hbox (9.44154pt too wide) in paragraph at lines 2959--2959
+\T1/LibertinusSerif-TLF/m/n/10 ma-tion from the cur-rent input| 
+ []
+
+
+Overfull \hbox (3.34157pt too wide) in paragraph at lines 2983--2983
+\T1/LibertinusSerif-TLF/m/n/10 ma-tion to the cur-rent output| 
+ []
+
+
+Overfull \hbox (11.21849pt too wide) in paragraph at lines 3007--3007
+[]|\T1/LibertinusSerif-TLF/m/n/10 To re-set the hid-den state based
+ []
+
+[22]
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 3015.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 3015.
+ [23] [24] [25] (main.aux (main.xsim))
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2024-01-04>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 40510 strings out of 474486
+ 1129191 string characters out of 5743756
+ 2130660 words of memory out of 5000000
+ 60558 multiletter control sequences out of 15000+600000
+ 581026 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 117i,10n,121p,74824b,4549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusMono-Regular.pfb><C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb><C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ayous/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (25 pages, 647466 bytes).
+PDF statistics:
+ 2234 PDF objects out of 2487 (max. 8388607)
+ 1745 named destinations out of 2073 (max. 500000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+
